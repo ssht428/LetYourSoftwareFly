@@ -10,7 +10,7 @@ Mine demo test is coding with VS2015 on Windows10,Hardware is Thinkbook 14s(CPU:
 Demo test is convert a RGB bmp image to gray scale. 
 Maybe the CPU is really fast,so optimization is not significant as article write.
 
-simple float operation use about 2680~3000us, search table and parallel execution use about 610~650us,
+simple float operation use about 2680 - 3000us, search table and parallel execution use about 610 - 650us,
 it's about 4.5 times faster.
 
 Test result is : 
