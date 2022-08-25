@@ -14,11 +14,11 @@ simple float operation use about 2680 - 3000us, search table and parallel execut
 it's about 4.5 times faster.
 
 Test result is : 
-！[CodeRunTime](LetYourSoftwareFly.png)
+！[CodeRunTime](/LetYourSoftwareFly_result.png)
 Test image is :
-！[TestImage](lena.bmp)
+！[TestImage](/lena.bmp)
 Gray image is :
-！[GrayImage](lena_gray.bmp)
+！[GrayImage](/lena_gray.jpg)
 
 Embedded system still not test,maybe later will test on ARM Cortex-M0 STM32F0 MCU.   
 
