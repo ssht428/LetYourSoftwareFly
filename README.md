@@ -7,6 +7,19 @@ Nowadays,the software/APP are get more and more big and choppy, there are too ma
 
 So I upload and translate it for someone who maybe needed.    
 Mine demo test is coding with VS2015 on Windows10,Hardware is Thinkbook 14s(CPU:i7-1065G7@1.30GHz,Memory:16G).   
+Demo test is convert a RGB bmp image to gray scale. 
+Maybe the CPU is really fast,so optimization is not significant as article write.
+
+simple float operation use about 2680~3000us, search table and parallel execution use about 610~650us,
+it's about 4.5 times faster.
+
+Test result is : 
+！[CodeRunTime](LetYourSoftwareFly.png)
+Test image is :
+！[TestImage](lena.bmp)
+Gray image is :
+！[GrayImage](lena_gray.bmp)
+
 Embedded system still not test,maybe later will test on ARM Cortex-M0 STM32F0 MCU.   
 
 Downside is simple translation of original article.   
