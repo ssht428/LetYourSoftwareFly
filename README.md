@@ -23,6 +23,10 @@ Test result is :
  convert to gray4 time = 7140 .1us;  
  init uchar color table time = 10 .1us;  
  convert to gray5 time = 6731 .1us;  
+ <p align="center">  
+  <img src="https://raw.githubusercontent.com/micropython/micropython/master/logo/upython-with-micro.jpg" alt="MicroPython Logo"/>  
+</p>  
+
 ！[CodeRunTime](LetYourSoftwareFly_result.png)  
 Test image is :   
 ！[TestImage](lena.bmp)  
