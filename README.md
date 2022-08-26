@@ -25,19 +25,18 @@ Test result is :
  convert to gray5 time = 6731 .1us;  
  <p align="center">  
   <img src="https://github.com/ssht428/LetYourSoftwareFly/blob/main/LetYourSoftwareFly_result.png" alt="MicroPython Logo"/>  
-</p>  
-！[CodeRunTime](LetYourSoftwareFly_result.png)  
+</p>   
+[！[CodeRunTime](./LetYourSoftwareFly_result.png)]   
 Test image is :  
  <p align="center">  
   <img src="https://github.com/ssht428/LetYourSoftwareFly/blob/main/lena.bmp" alt="lena.bmp"/>  
-</p>  
-
-！[TestImage](lena.bmp)  
+</p>   
+[！[TestImage](./lena.bmp)]  
 Gray image is :    
  <p align="center">  
   <img src="https://github.com/ssht428/LetYourSoftwareFly/blob/main/lena-gray.jpg" alt="lena-gray.jpg"/>  
 </p>  
-！[GrayImage](lena-gray.jpg)  
+[！[GrayImage](./lena-gray.jpg)]   
 
 Embedded system still not test,maybe later will test on ARM Cortex-M0 STM32F0 MCU.   
 
