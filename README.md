@@ -14,7 +14,7 @@ simple float operation use about 2680 - 3000us, search table and parallel execut
 it's about 4.5 times faster.
 
 Test result is :   
- opencv cvtColor time = 71577 .1s;  
+ opencv cvtColor time = 71577 .1us;  
  convert to gray0 time = 26070 .1us;  
  convert to gray1 time = 10614 .1us;  
  convert to gray2 time = 6923 .1us;  
