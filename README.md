@@ -6,19 +6,28 @@ The file "让你的软件飞起来.pdf" is the original article. I saw it is ove
 Nowadays,the software/APP are get more and more big and choppy, there are too many "programmer" just realizes basic functions use default library no matter how slow it is.   
 
 So I upload and translate it for someone who maybe needed.    
-Mine demo test is coding with VS2015 on Windows10,Hardware is Thinkbook 14s(CPU:i7-1065G7@1.30GHz,Memory:16G).   
+Mine demo test is coding with VS2015 on Windows10,Hardware is Thinkbook 14s(CPU:i7-1065G7 1.30GHz,Memory:16G).   
 Demo test is convert a RGB bmp image to gray scale. 
 Maybe the CPU is really fast,so optimization is not significant as article write.
 
 simple float operation use about 2680 - 3000us, search table and parallel execution use about 610 - 650us,
 it's about 4.5 times faster.
 
-Test result is : 
-！[CodeRunTime](./LetYourSoftwareFly_result.png)
-Test image is :
-！[TestImage](./lena.bmp)
-Gray image is :
-！[GrayImage](./lena-gray.jpg)
+Test result is :   
+ opencv cvtColor time = 71577 .1s;
+ convert to gray0 time = 26070 .1us;
+ convert to gray1 time = 10614 .1us;
+ convert to gray2 time = 6923 .1us;
+ init integer color table time = 11 .1us;
+ convert to gray3 time = 7705 .1us;
+ convert to gray4 time = 7140 .1us;
+ init uchar color table time = 10 .1us;
+ convert to gray5 time = 6731 .1us;
+！[CodeRunTime](LetYourSoftwareFly_result.png)
+Test image is :   
+！[TestImage](lena.bmp)
+Gray image is :    
+！[GrayImage](lena-gray.jpg)
 
 Embedded system still not test,maybe later will test on ARM Cortex-M0 STM32F0 MCU.   
 
