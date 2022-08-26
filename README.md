@@ -28,7 +28,11 @@ Test result is :
 </p>  
 
 ！[CodeRunTime](LetYourSoftwareFly_result.png)  
-Test image is :   
+Test image is :  
+ <p align="center">  
+  <img src="https://github.com/ssht428/LetYourSoftwareFly/blob/main/LetYourSoftwareFly_result.png" alt="MicroPython Logo"/>  
+</p>  
+
 ！[TestImage](lena.bmp)  
 Gray image is :      
 ！[GrayImage](lena-gray.jpg)  
