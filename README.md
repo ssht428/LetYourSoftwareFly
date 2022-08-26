@@ -14,20 +14,20 @@ simple float operation use about 2680 - 3000us, search table and parallel execut
 it's about 4.5 times faster.
 
 Test result is :   
- opencv cvtColor time = 71577 .1s;
- convert to gray0 time = 26070 .1us;
- convert to gray1 time = 10614 .1us;
- convert to gray2 time = 6923 .1us;
- init integer color table time = 11 .1us;
- convert to gray3 time = 7705 .1us;
- convert to gray4 time = 7140 .1us;
- init uchar color table time = 10 .1us;
- convert to gray5 time = 6731 .1us;
-！[CodeRunTime](LetYourSoftwareFly_result.png)
+ opencv cvtColor time = 71577 .1s;  
+ convert to gray0 time = 26070 .1us;  
+ convert to gray1 time = 10614 .1us;  
+ convert to gray2 time = 6923 .1us;  
+ init integer color table time = 11 .1us;  
+ convert to gray3 time = 7705 .1us;  
+ convert to gray4 time = 7140 .1us;  
+ init uchar color table time = 10 .1us;  
+ convert to gray5 time = 6731 .1us;  
+！[CodeRunTime](LetYourSoftwareFly_result.png)  
 Test image is :   
-！[TestImage](lena.bmp)
-Gray image is :    
-！[GrayImage](lena-gray.jpg)
+！[TestImage](lena.bmp)  
+Gray image is :      
+！[GrayImage](lena-gray.jpg)  
 
 Embedded system still not test,maybe later will test on ARM Cortex-M0 STM32F0 MCU.   
 
